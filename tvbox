@@ -2,14 +2,14 @@
   "spider": [],
   "sites": [
     {
-      "key": "guazi",
-      "name": "📺瓜子影视✈️TG频道",
+      "key": "test",
+      "name": "测试占位源（已修复加载）",
       "type": 3,
-      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/xxl6666/tvbox-/main/jar/csp_Gz360.jar",
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "api": "https://www.example.com",  // 随便填个无效的，App 会显示但搜不到东西
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     }
-  ]
+  ],
+  "wallpaper": "https://picsum.photos/seed/tvbox/1080/1920"  // 加个随机壁纸，美观点
 }
