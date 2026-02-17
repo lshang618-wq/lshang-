@@ -1,37 +1,19 @@
 {
-  "title": "离殇 TVBox 接口",
-  "logo": "https://example.com/logo.png",
+  "spider": "https://raw.gitmirror.com/sec-an/TVBox/refs/heads/main/spider.jar",
   "sites": [
     {
-      "key": "okdz",
-      "name": "OK吊炸天",
+      "key": "优质资源",
+      "name": "优质资源",
       "type": 3,
-      "api": "https://api.ok321.top/api.php",
-      "playUrl": "",
-      "search": 1,
-      "quickSearch": 1,
-      "filter": true
-    },
-    {
-      "key": "ftys",
-      "name": "饭太硬",
-      "type": 3,
-      "api": "http://饭太硬.com/api.php",
-      "search": 1,
+      "api": "https://raw.gitmirror.com/gaotianli/TVBox/refs/heads/main/0824.json",
+      "searchable": 1,
       "quickSearch": 1
     }
   ],
   "parses": [
     {
-      "name": "OK直链",
-      "type": 3,
-      "url": "http://ok321.top/ok"
-    },
-    {
-      "name": "通用",
-      "type": 0,
+      "name": "通用解析",
       "url": "https://jx.xmflv.com/?url="
     }
-  ],
-  "filters": {}
+  ]
 }
