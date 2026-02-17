@@ -2,10 +2,10 @@
   "spider": [],
   "sites": [
     {
-      "key": "瓜子影视",
+      "key": "guazi",
       "name": "📺瓜子影视✈️TG频道",
       "type": 3,
-      "jar": "https://你的jar包地址.jar",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/xxl6666/tvbox-/main/jar/csp_Gz360.jar",
       "api": "csp_Gz360",
       "searchable": 1,
       "quickSearch": 1,
@@ -13,3 +13,4 @@
     }
   ]
 }
+
