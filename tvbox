@@ -1,28 +1,54 @@
 {
-  "key": "guazi_new",
-  "name": "瓜子✨影视 (类似源)",
-  "type": 3,
-  "api": "csp_Gz360",  // 或 drpy 版用 "drpy" 如果 jar 支持
-  "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/franksun1211/TVBOX/main/jar/yt.jar",  // 从热门 fork 借用兼容 jar
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1
-},
-{
-  "key": "xyq",
-  "name": "香雅情 (类似瓜子，高清多)",
-  "type": 3,
-  "api": "csp_XYQ",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1
-},
-{
-  "key": "catvod",
-  "name": "猫系聚合 (超类似瓜子)",
-  "type": 3,
-  "api": "https://猫.tv/json/catvod.json",  // 或直接用多源里的猫
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1
+  "spider": [],
+  "sites": [
+    {
+      "key": "guazi",
+      "name": "📺瓜子影视✨ (兼容修复)",
+      "type": 3,
+      "api": "csp_Gz360",
+      "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/franksun1211/TVBOX/main/jar/yt.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "guazi_new",
+      "name": "瓜子｜影视 (多源版)",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xyq",
+      "name": "香雅情 (类似瓜子，高清)",
+      "type": 3,
+      "api": "csp_XYQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "saohuo",
+      "name": "骚火影视 (高清聚合)",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "ext": "https://shdy5.us/shdy.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "test",
+      "name": "测试占位 (备用)",
+      "type": 3,
+      "api": "https://www.example.com",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+  ],
+  "wallpaper": "https://picsum.photos/seed/tvbox/1080/1920",
+  "logo": "https://picsum.photos/seed/logo/200/200"
 }
