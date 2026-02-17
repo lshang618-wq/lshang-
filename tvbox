@@ -1,43 +1,19 @@
 {
-  "spider": [],
   "sites": [
     {
-      "key": "guazi_new",
-      "name": "瓜子✨影视 (类似源)",
+      "key": "ok321",
+      "name": "OK吊炸天",
       "type": 3,
-      "api": "csp_Gz360",
-      "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/franksun1211/TVBOX/main/jar/yt.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "xyq",
-      "name": "香雅情 (类似瓜子，高清多)",
-      "type": 3,
-      "api": "csp_XYQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "catvod",
-      "name": "猫系聚合 (超类似瓜子)",
-      "type": 3,
-      "api": "https://猫.tv/json/catvod.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "test",
-      "name": "测试占位源",
-      "type": 3,
-      "api": "https://www.example.com",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "api": "https://api.ok321.top/api.php",
+      "search": 1,
+      "filter": false
     }
   ],
-  "wallpaper": "https://picsum.photos/seed/tvbox/1080/1920"
+  "parses": [
+    {
+      "name": "OK直链",
+      "type": 3,
+      "url": "http://ok321.top/ok"
+    }
+  ]
 }
